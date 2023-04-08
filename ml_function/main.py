@@ -26,9 +26,9 @@ def numerai_submit(request):
             "v4.1/live_example_preds.parquet", "live_example_preds.parquet"
         )
 
-        pl.read_parquet("./live_example_preds.parquet").write_csv(
-            f"tournament_predictions_{model_name}.csv"
-        )
+        pl.read_parquet("./live_example_preds.parquet").select(
+            ["id", "prediction"]
+        ).write_csv(f"tournament_predictions_{model_name}.csv")
 
         # Numerai Training and Submit code
         model_id = napi.get_models()[model_name]
