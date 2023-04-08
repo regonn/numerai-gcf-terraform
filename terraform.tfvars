@@ -1,0 +1,5 @@
+project_id          = "gcp-project-id"
+discord_webhook_url = "discord-webhook-url"
+numerai_public_id = "numerai-public-id"
+numerai_secret_key = "numerai-secret-key"
+numerai_model_id = "numerai-model-id"

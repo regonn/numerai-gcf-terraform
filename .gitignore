@@ -1,0 +1,7 @@
+gcp-json-keyfile.json
+*.tfstate
+*.tfstate.backup
+ml_function.zip
+.terraform.lock.hcl
+.terraform/*
+.DS_Store

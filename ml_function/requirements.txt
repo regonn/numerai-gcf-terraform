@@ -1,0 +1,8 @@
+google-cloud-pubsub==2.11.0
+scikit-learn==1.0.2
+numpy==1.22.3
+requests==2.27.1
+numerapi==2.14.0
+pyarrow==11.0.0
+functions-framework==3.3.0
+polars==0.16.18
